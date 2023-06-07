@@ -1,0 +1,24 @@
+<div class="">
+    <label for="title">TITLE: </label>
+    <input required value="<%= movies.title %>"
+    type="text" name="title" id="title" class="">
+</div>
+<div class="">
+    <label for="link">LINK: </label>
+    <input required value="<%= movies.link %>"
+    type="text" name="link" id="link" class="">
+</div>
+<div class="">
+    <label for="rate">RATE: </label>
+    <input required value="<%= movies.rate %>"
+    type="text" name="rate" id="rate" class="">
+</div>
+<div class="">
+    <label for="moviesDetail">MOVIE DETAILS: </label>
+    <textarea required name="moviesDetail" id="moviesDetail" 
+    class="" ><%= movies.moviesDetail %></textarea>
+</div>
+<br>
+<a href="/" class="">Cancel</a>
+<button type="submit" class="">Save</button>
+
